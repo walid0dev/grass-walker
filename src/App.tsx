@@ -1,14 +1,9 @@
-import { cn } from "./utils"
-function App() {
-  return (
-    <>
-      <h1 className={cn("font-bold text-2xl", "p-4")}>
-        Here we go again!{
-          
-        }
-      </h1>
-    </>
-  )
-}
+import Scene from "./Scene";
 
-export default App
+const App = () => {
+    return (
+        <Scene></Scene>
+    );
+};
+
+export default App;
