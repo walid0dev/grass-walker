@@ -10,12 +10,12 @@ const Scene = () => {
     return (
         <MainKeyboardControls>
             <Canvas style={{ height: '100dvh' }}>
-                <OrbitControls />
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 10, 5]} castShadow />
                 <Sky sunPosition={[100, 20, 100]} />
-                <Camera />
-                <Physics debug>
+                <OrbitControls />
+                <Camera />{' '}
+                <Physics>
                     <Field />
                     <Ball />
                 </Physics>

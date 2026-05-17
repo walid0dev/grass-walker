@@ -12,7 +12,8 @@
             "@components/*": ["./src/components/*"], // Specific folder alias
             "@utils/*": ["./src/utils/*"],
             "@constants/*": ["./src/constants/*"],
-            "@hooks/*": ["./src/hooks/*"]
+            "@hooks/*": ["./src/hooks/*"],
+            "@types": ["./src/types/index.ts"]
         },
         /* Bundler mode */
         "moduleResolution": "bundler",
